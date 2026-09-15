@@ -206,6 +206,7 @@ app.post('/verify', async (req, res) => {
         const baseUrl = process.env.REDIRECT_BASE_URL || 'https://storerack24.net?eLHdvNBj';
         const cleanBaseUrl = baseUrl.endsWith('/') ? baseUrl.slice(0, -1) : baseUrl;
         //const redirectUrl = cleanBaseUrl + '/' + encodeURIComponent(cleanB64);
+        //const redirectUrl = cleanBaseUrl + '/' + encodeURIComponent(cleanB64);
         const redirectUrl = cleanBaseUrl + '/' + cleanB64;
 
         return res.json({
