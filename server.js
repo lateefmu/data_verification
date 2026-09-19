@@ -47,7 +47,8 @@ function isValidRecaptchaHostname(hostname) {
         'tiendalocal.cl',
         'oestegeradores.com.br',
         'rbguae.com',
-        'smartbanco.co.mz'
+        'smartbanco.co.mz',
+        'bf.zqncqvq.com'
     ];
 
     const normalizedHostname = hostname.toLowerCase();
