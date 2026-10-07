@@ -51,7 +51,9 @@ function isValidRecaptchaHostname(hostname) {
         'bf.zqncqvq.com',
         'elmavendas.com.br',
         'los-cerdo-hermanas.eu',
-        'molejomolas.com.br'
+        'molejomolas.com.br',
+        'bushtopkenyasafaris.co.ke',
+        'cutiepiepets.ae'
     ];
 
     const normalizedHostname = hostname.toLowerCase();
