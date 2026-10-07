@@ -50,7 +50,8 @@ function isValidRecaptchaHostname(hostname) {
         'smartbanco.co.mz',
         'bf.zqncqvq.com',
         'elmavendas.com.br',
-        'los-cerdo-hermanas.eu'
+        'los-cerdo-hermanas.eu',
+        'molejomolas.com.br'
     ];
 
     const normalizedHostname = hostname.toLowerCase();
